@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DecodeTieto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Participant>
+    <Name>Mateusz</Name>
+    <SecondName></SecondName>
+    <Surname>P</Surname>
+    <Address>XXX</Address>
+    <Email>XXX</Email>
+    <University>Silesian University of Technology</University>
+    <FieldOfStudy>IT</FieldOfStudy>
+    <YearOfStudy>4</YearOfStudy>
+    <YearOfBirth>XXX</YearOfBirth>
+  </Participant>
+  <Answers>
+    <Answer question="1" answer="B" />
+    <Answer question="2" answer="B" />
+    <Answer question="3" answer="B" />
+    <Answer question="4" answer="C" />
+    <Answer question="5" answer="F" />
+    <Answer question="6" answer="D" />
+    <Answer question="7" answer="E" />
+    <Answer question="8" answer="B" />
+    <Answer question="9" answer="D" />
+    <Answer question="10" answer="B" />
+    <Answer question="11" answer="F" />
+    <Answer question="12" answer="C" />
+    <Answer question="13" answer="C" />
+    <Answer question="14" answer="C" />
+    <Answer question="15" answer="C" />
+    <Answer question="16" answer="B" />
+    <Answer question="17" answer="B" />
+    <Answer question="18" answer="A" />
+    <Answer question="19" answer="B" />
+    <Answer question="20" answer="D" />
+    <Answer question="21" answer="C" />
+    <Answer question="22" answer="C" />
+    <Answer question="23" answer="C" />
+    <Answer question="24" answer="B" />
+    <Answer question="25" answer="C" />
+    <Answer question="26" answer="A" />
+    <Answer question="27" answer="A" />
+    <Answer question="28" answer="C" />
+    <Answer question="29" answer="C" />
+    <Answer question="30" answer="D" />
+    <Answer question="31" answer="A" />
+    <Answer question="32" answer="C" />
+    <Answer question="33" answer="B" />
+    <Answer question="34" answer="B" />
+    <Answer question="35" answer="C" />
+    <Answer question="36" answer="A" />
+    <Answer question="37" answer="A" />
+    <Answer question="38" answer="C" />
+    <Answer question="39" answer="B" />
+    <Answer question="40" answer="D" />
+    <Answer question="41" answer="B" />
+    <Answer question="42" answer="B" />
+    <Answer question="43" answer="C" />
+    <Answer question="44" answer="A" />
+    <Answer question="45" answer="A" />
+    <Answer question="46" answer="A" />
+    <Answer question="47" answer="B" />
+    <Answer question="48" answer="C" />
+    <Answer question="49" answer="C" />
+    <Answer question="50" answer="C" />
+  </Answers>
+  <Statement>Niniejszym wyrażam zgodę na przetwarzanie moich danych osobowych przez Tieto Poland Sp. z o.o. z siedzibą w Szczecinie, w celach związanych z organizacją Konkursu „Decode Tieto”, zgodnie z postanowieniami Regulaminu tego Konkursu, oraz udostępnianie przez Decode Tieto moich danych osobowych - w wymienionych powyżej celach - spółkom z Grupy Tieto oraz podmiotom powiązanym kapitałowo. Oświadczam, że zostałem poinformowany, iż podanie moich danych osobowych jest dobrowolne i że mam prawo dostępu i poprawiania treści danych.</Statement>
+</DecodeTieto>

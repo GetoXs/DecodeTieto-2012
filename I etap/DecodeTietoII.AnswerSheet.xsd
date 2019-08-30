@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="DecodeTieto" type="Root" />
+  
+  <xs:complexType name="Root" mixed="true">
+    <xs:all>
+      <xs:element name="Participant" type="Participant" />
+      <xs:element name="Answers" type="ArrayOfAnswer" />
+      <xs:element name="Statement" type="xs:string" />
+    </xs:all>
+  </xs:complexType>
+  
+  <xs:complexType name="Participant">
+    <xs:all>
+      <xs:element name="Name" type="xs:string" />
+      <xs:element name="SecondName" type="xs:string" />
+      <xs:element name="Surname" type="xs:string" />
+      <xs:element name="Address" type="xs:string" />
+      <xs:element name="Email" type="xs:string" />
+      <xs:element name="University" type="xs:string" />
+      <xs:element name="FieldOfStudy" type="xs:string" />
+      <xs:element name="YearOfStudy" type="xs:int" />
+      <xs:element name="YearOfBirth" type="xs:int" />
+    </xs:all>
+  </xs:complexType>
+  
+  <xs:complexType name="ArrayOfAnswer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Answer" type="Answer" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Answer">
+    <xs:attribute name="question" type="xs:int" use="required" />
+    <xs:attribute name="answer" type="xs:string" use="required" />
+  </xs:complexType>
+</xs:schema>
